@@ -8,8 +8,8 @@ using Test
         [1],
         [5],
         [4]]
-    @test neighbor(1)==[1,2,3]
-    @test neighbor(4)==[4,5]
+    @test neighbor(1)==[1 2 3]
+    @test neighbor(4)==[4 5]
 
     graph = [
         [2],
@@ -17,8 +17,8 @@ using Test
         [1],
         [5],
         [4]]
-    @test neighbor(1)==[1,2]
-    @test neighbor(3)==[3,1]
+    @test neighbor(1)==[1 2]
+    @test neighbor(3)==[1 3]
 
     graph = [
         [2],
